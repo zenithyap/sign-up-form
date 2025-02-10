@@ -54,7 +54,7 @@ img {
 }
 
 .left p {
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 .left a:link,
