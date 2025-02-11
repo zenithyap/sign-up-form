@@ -42,7 +42,7 @@ img {
 
 .banner h1 {
     font-family: norse-bold;
-    font-size: 10rem;
+    font-size: clamp(6rem, 10vw, 9rem);
 }
 
 .credit {
