@@ -31,44 +31,44 @@ body {
     background-image: url("./bg.jpg");
     background-size: cover;
     color: var(--white-text);
-}
 
-img {
-    width: 150px;
-    height: auto;
-}
+    img {
+        width: 150px;
+        height: auto;
+    }
 
-.banner {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 30%;
-    padding: var(--default-space);
-    background-color: rgba(0, 0, 0, .5);
-    flex-wrap: wrap;
-}
+    .banner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 30%;
+        padding: var(--default-space);
+        background-color: rgba(0, 0, 0, .5);
+        flex-wrap: wrap;
 
-.banner h1 {
-    font-family: norse-bold;
-    font-size: clamp(6rem, 10vw, 9rem);
-}
+        h1 {
+            font-family: norse-bold;
+            font-size: clamp(6rem, 10vw, 9rem);
+        }
+    }
 
-.credit {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    padding: var(--default-space);
-}
+    .credit {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        padding: var(--default-space);
+    }
 
-.left p {
-    font-size: var(--large-text);
-}
+    p {
+        font-size: var(--large-text);
+    }
 
-.left a:link,
-.left a:visited {
-    color: var(--white-text);
+    a:link,
+    a:visited {
+        color: var(--white-text);
+    }
 }
 
 .right {
